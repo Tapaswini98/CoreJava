@@ -6,6 +6,9 @@ public class DebuggingMain {
 
     public static void main(String[] args) {
         DebuggingMain d = new DebuggingMain();
+        System.out.println("Debugging");
+        System.out.println("Debugging");
+        System.out.println("Debugging");
         d.sum(5,6);
     }
   public  DebuggingMain(){
