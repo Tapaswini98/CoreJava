@@ -17,8 +17,12 @@ public class AdmissionFormMain {
         admissionFormManisha.ojeeRank = 6;
         System.out.println(admissionFormManisha.getScholarshipAmount());
 
-        System.out.println(admissionFormTapaswini==admissionFormManisha);
+        System.out.println(admissionFormTapaswini == admissionFormManisha);
+
         System.out.println(admissionFormManisha.getClass());
+        System.out.println(admissionFormTapaswini.hashCode());
+        System.out.println(admissionFormManisha.hashCode());
+
     }
 
 }
