@@ -23,6 +23,14 @@ public class AdmissionFormMain {
         System.out.println(admissionFormTapaswini.hashCode());
         System.out.println(admissionFormManisha.hashCode());
 
+        AdmissionForm admissionFormTapaswiniAnotherVariable = admissionFormManisha;
+
+        System.out.println(admissionFormTapaswiniAnotherVariable == admissionFormManisha); // true
+
+        System.out.println(admissionFormTapaswini.hashCode());
+        System.out.println(admissionFormTapaswiniAnotherVariable.hashCode());
+
+
     }
 
 }
