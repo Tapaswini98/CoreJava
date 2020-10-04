@@ -9,6 +9,7 @@ public class AdmissionForm {
     public Integer getScholarshipAmount() {
         if (ojeeRank > 0 && ojeeRank <= 100)
         {
+            // some message.
             return 70;
         }
         if (ojeeRank > 101 && ojeeRank <=200)
